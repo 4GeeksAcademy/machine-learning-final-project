@@ -19,7 +19,11 @@
 
 ## 🚛 How to deliver this project
 
-You should deliver the link to your deployed project Github repo, and also the link to your deployed machine learning web application.
+You should deliver:
+
+-the link to your project Github repo (already deployed).
+
+-the link to your deployed machine learning web application.
 
 ## 📝 Instructions
 
