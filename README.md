@@ -73,14 +73,9 @@ Build a machine learning web application using your saved model. You can use Fla
 Use Heroku or another cloud computing platform that you prefere to deploy your web application and share it with the world.
 
 
-### Due date
-
-September 2nd
-
-
 ### Presentation
 
-The presentation will last 5 minutes per group, so make sure to use your time efficiently. The code will be reviewed by us, so do not waste time explaining your code. You should focus in the important points as if you were trying to sell your project to the stakeholders of your company. They probably won't have a technical background (maybe they will), so try using simple words and an easy to understand presentation. Remember that quality beats quantity.
+The presentation will last 5 minutes per group, so make sure to use your time efficiently. The code will be reviewed by us, so do not waste time explaining your code. You should focus in the important points as if you were trying to sell your project to the stakeholders of your company. They probably won't have a technical background (maybe they will), so try using simple words and an easy to understand notebook presentation. Remember that quality beats quantity.
 
 Important points recommended to mention in your 5 minute presentation:
 
