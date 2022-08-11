@@ -61,12 +61,12 @@ Make yourself all this questions before training your model. Who knows these are
 
 **5. Model and results**
 
-Pick one or more algorithms to train, evaluate and hypertune. Choose the one you will be working with.
+Pick one or more algorithms to train, evaluate and hypertune. Choose the one you will be working with and save it fro the deployment step.
 
 **6. Deployment**
 
-What tool will you use to build your machine learning web application? Flask, Streamlit, maybe another one?
-Will you use Heroku to deploy it or another cloud computing platform?
+Build a machine learning web application using your saved model. You can use Flask, Streamlit or any other tool that you know.
+Use Heroku or another cloud computing platform that you prefere to deploy your web application and share it with the world.
 
 
 ### Due date
