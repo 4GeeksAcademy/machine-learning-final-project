@@ -2,11 +2,11 @@
 # Machine learning Final Project
 <!-- endhide -->
 
-- You have reached the final project! If you look back, do it only to see how far you have come! Now the final step to the finish line.
+-You have reached the final project! If you look back, do it only to see how far you have come! Now the final step to the finish line.
 
-- We have built projects based on different business problems, from different industries, and using a variety of algorithms. Now it's time to build your own project using the algorithm that you think is right for your problem.
+-We have built projects based on different business problems, from different industries, and using a variety of algorithms. Now it's time to build your own project using the algorithm that you think is right for your problem.
 
-- If an ML model makes a prediction in Jupyter, is anyone around to hear it? Probably not. Deploying models is the key to making them useful.
+-If an ML model makes a prediction in Jupyter, is anyone around to hear it? Probably not. Deploying models is the key to making them useful.
 
 *“Hard work always beats talent when talent doesn't work hard” - Tim Notke*
 
@@ -37,7 +37,7 @@ Groups should ideally consist of three people. Minimum number of members is two 
 
 Start by defining the business problem and then landing it into a machine learning problem.
 
->“A problem defined is a problem half solved” - Albert Einstein
+*“A problem defined is a problem half solved” - Albert Einstein*
 
 **2. Data collection**
 
@@ -61,7 +61,7 @@ Will your model require normalization? Maybe you are dealing with a robust algor
 
 Make yourself all this questions before training your model. Who knows these are the same questions you will be asked at your presentation.
 
->Remember: Garbage in, garbage out.
+*Remember: Garbage in, garbage out.*
 
 **5. Model and results**
 
