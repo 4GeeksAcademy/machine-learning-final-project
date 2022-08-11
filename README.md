@@ -35,7 +35,7 @@ Start by defining the business problem and then landing it into a machine learni
 
 >“A problem defined is a problem half solved” - Albert Einstein
 
-**2.Data collection**
+**2. Data collection**
 
 How will you collect the data? Is it an existing public dataset? Will you have to merge data from different sources? Maybe do some web scraping?
 
@@ -45,7 +45,7 @@ This is a fundamental part because in a real life project, depending on the data
 
 Explore your data as much as you can to find important patterns and relationships between features. Use graphs to explain this patterns. This will be important to show in your presentation.
 
-**Data Preprocessing**
+**3. Data Preprocessing**
 
 Clean your data to build a good model, because poor quality data will always produce faulty results. You can go back to your data preprocessing module to remember all the steps needed. 
 
@@ -59,18 +59,20 @@ Make yourself all this questions before training your model. Who knows these are
 
 >Remeber: Garbage in, garbage out.
 
-**Model and results**
+**4. Model and results**
 
 Pick one or more algorithms to train, evaluate and hypertune. Choose the one you will be working with.
 
-**Deployment**
+**5. Deployment**
 
 What tool will you use to build your machine learning web application? Flask, Streamlit, maybe another one?
 Will you use Heroku to deploy it or another cloud computing platform?
+\
 
 ### Due date
 
 September 2nd
+
 
 ### Presentation
 
