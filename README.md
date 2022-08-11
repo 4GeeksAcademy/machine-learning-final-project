@@ -23,29 +23,29 @@ You should deliver the link to your deployed project Github repo, and also the l
 
 ## 📝 Instructions
 
-**Group formation**
+### Group formation
 
 Groups should ideally consist of three people. Minimum number of members is two people.
 
-**Project Phases**
+### Project Phases
 
-1. Problem Definition
+**Problem Definition**
 
 Start by defining the business problem and then landing it into a machine learning problem.
 
 >“A problem defined is a problem half solved” - Albert Einstein
 
-2. Data collection
+**Data collection**
 
 How will you collect the data? Is it an existing public dataset? Will you have to merge data from different sources? Maybe do some web scraping?
 
 This is a fundamental part because in a real life project, depending on the data you have, the problem can be solved with the existing data or maybe you will have to convince your client that paying for more data is really needed.
 
-3. Exploratory Data Analysis 
+**Exploratory Data Analysis** 
 
 Explore your data as much as you can to find important patterns and relationships between features. Use graphs to explain this patterns. This will be important to show in your presentation.
 
-4. Data Preprocessing
+**Data Preprocessing**
 
 Clean your data to build a good model, because poor quality data will always produce faulty results. You can go back to your data preprocessing module to remember all the steps needed. 
 
@@ -59,20 +59,20 @@ Make yourself all this questions before training your model. Who knows these are
 
 >Remeber: Garbage in, garbage out.
 
-5. Model and results
+**Model and results**
 
 Pick one or more algorithms to train, evaluate and hypertune. Choose the one you will be working with.
 
-6. Deployment
+**Deployment**
 
 What tool will you use to build your machine learning web application? Flask, Streamlit, maybe another one?
 Will you use Heroku to deploy it or another cloud computing platform?
 
-**Due date**
+### Due date
 
 September 2nd
 
-**Presentation**
+### Presentation
 
 The presentation will last 5 minutes per group, so make sure to use your time efficiently. The code will be reviewed by us, so do not waste time explaining your code. You should focus in the important points as if you were trying to sell your project to the stakeholders of your company. They probably won't have a technical background (maybe they will), so try using simple words and an easy to understand presentation. Remember that quality beats quantity.
 
