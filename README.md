@@ -41,11 +41,11 @@ How will you collect the data? Is it an existing public dataset? Will you have t
 
 This is a fundamental part because in a real life project, depending on the data you have, the problem can be solved with the existing data or maybe you will have to convince your client that paying for more data is really needed.
 
-**Exploratory Data Analysis** 
+**3. Exploratory Data Analysis** 
 
 Explore your data as much as you can to find important patterns and relationships between features. Use graphs to explain this patterns. This will be important to show in your presentation.
 
-**3. Data Preprocessing**
+**4. Data Preprocessing**
 
 Clean your data to build a good model, because poor quality data will always produce faulty results. You can go back to your data preprocessing module to remember all the steps needed. 
 
@@ -57,17 +57,17 @@ Will your model require normalization? Maybe you are dealing with a robust algor
 
 Make yourself all this questions before training your model. Who knows these are the same questions you will be asked at your presentation.
 
->Remeber: Garbage in, garbage out.
+>Remember: Garbage in, garbage out.
 
-**4. Model and results**
+**5. Model and results**
 
 Pick one or more algorithms to train, evaluate and hypertune. Choose the one you will be working with.
 
-**5. Deployment**
+**6. Deployment**
 
 What tool will you use to build your machine learning web application? Flask, Streamlit, maybe another one?
 Will you use Heroku to deploy it or another cloud computing platform?
-\
+
 
 ### Due date
 
