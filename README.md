@@ -29,13 +29,13 @@ Groups should ideally consist of three people. Minimum number of members is two 
 
 ### Project Phases
 
-**Problem Definition**
+**1. Problem Definition**
 
 Start by defining the business problem and then landing it into a machine learning problem.
 
 >“A problem defined is a problem half solved” - Albert Einstein
 
-**Data collection**
+**2.Data collection**
 
 How will you collect the data? Is it an existing public dataset? Will you have to merge data from different sources? Maybe do some web scraping?
 
