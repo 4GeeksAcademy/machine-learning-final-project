@@ -21,15 +21,15 @@
 
 You should deliver:
 
--the link to your project Github repo (already deployed).
+- The link to your project Github repo (already deployed).
 
--the link to your deployed machine learning web application.
+- The link to your deployed machine learning web application.
 
 ## 📝 Instructions
 
 ### Group formation
 
-Groups should ideally consist of three people. Minimum number of members is two people.
+Groups should ideally consist of three people. The minimum number of members is two people.
 
 ### Project Phases
 
@@ -47,11 +47,11 @@ This is a fundamental part because in a real life project, depending on the data
 
 **3. Exploratory Data Analysis** 
 
-Explore your data as much as you can to find important patterns and relationships between features. Use graphs to explain this patterns. This will be important to show in your presentation.
+Explore your data as much as you can to find important patterns and relationships between features. Use graphs to explain these patterns. This will be important to show in your presentation.
 
 **4. Data Preprocessing**
 
-Clean your data to build a good model, because poor quality data will always produce faulty results. You can go back to your data preprocessing module to remember all the steps needed. 
+Clean your data to build a good model, because poor-quality data will always produce faulty results. You can go back to your data preprocessing module to remember all the steps needed. 
 
 If this is a classification problem, is your data balanced? If not, consider resampling it, or make sure to pick the correct evaluation metric.
 
@@ -59,25 +59,25 @@ Does your data have a lot of outliers? Are they normal values from your populati
 
 Will your model require normalization? Maybe you are dealing with a robust algorithm to train and normalization is not needed.
 
-Make yourself all this questions before training your model. Who knows these are the same questions you will be asked at your presentation.
+Make yourself all these questions before training your model. Who knows these are the same questions you will be asked at your presentation.
 
-*Remember: Garbage in, garbage out.*
+*Remember, Garbage in, garbage out.*
 
 **5. Model and results**
 
-Pick one or more algorithms to train, evaluate and hypertune. Choose the one you will be working with and save it for the deployment step.
+Pick one or more algorithms to train, evaluate and hyper tune. Choose the one you will be working with and save it for the deployment step.
 
 **6. Deployment**
 
-Build a machine learning web application using your saved model. You can use Flask, Streamlit or any other tool that you know.
-Use Heroku or another cloud computing platform that you prefere to deploy your web application and share it with the world.
+Build a Machine Learning web application using your saved model. You can use Flask, Streamlit or any other tool that you know.
+Use Heroku or another cloud computing platform that you prefer to deploy your web application and share it with the world.
 
 
 ### Presentation
 
-The presentation will last 5 minutes per group, so make sure to use your time efficiently. The code will be reviewed by us, so do not waste time explaining your code. You should focus in the important points as if you were trying to sell your project to the stakeholders of your company. They probably won't have a technical background (maybe they will), so try using simple words and an easy to understand notebook presentation. Remember that quality beats quantity.
+The presentation will last 5 minutes per group, so make sure to use your time efficiently. The code will be reviewed by us, so do not waste time explaining your code. You should focus on the important points as if you were trying to sell your project to the stakeholders of your company. They probably won't have a technical background (maybe they will), so try using simple words and an easy to understand notebook presentation. Remember that quality beats quantity.
 
-Important points recommended to mention in your 5 minute presentation:
+Important points recommended to mention in your 5-minute presentation:
 
 - What was the business problem
 
