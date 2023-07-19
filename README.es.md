@@ -5,7 +5,7 @@
 - A lo largo de este bootcamp, hemos estudiado diferentes modelos basados en proyectos de distintas áreas e índoles. Ahora es el momento de crear tu propio proyecto utilizando el agoritmo que creas que es más adecuado para tu problema.
 - Tendrás que buscar un conjunto de datos apto para trabajar con él, procesarlo, entrenar a un modelo y finalmente disponibilizarlo para poder ser consumido.
 
-*“El trabajo duro siempre vence al talento cuando el talento no trabaja duro” - Tim Notke*
+> “El trabajo duro siempre vence al talento cuando el talento no trabaja duro” - Tim Notke
 
 ## 🌱  Cómo iniciar este proyecto
 
@@ -36,68 +36,45 @@ Comienza por definir un problema y conviértelo en un problema de Machine Learni
 La elección del conjunto de datos debe satisfacer unos requisitos mínimos en cuanto a número de filas y de variables predictoras. Como mínimo, debe contener:
 
 - 10.000 instancias (filas)
-- 10 variables predictoras, de las cuales debe tener al menos una categórica
+- 10 variables predictoras, de las cuales debe haber al menos 1 variable categórica.
 
-**1. Definición del problema**
+#### Paso 2: Obtencion y carga del conjunto de datos
 
-Comienza por definir el problema comercial y luego conviértelo en un problema de Machine Learning.
+Puesto que en el mundo real los datos no suelen llegar en un fichero csv plano, se deben adquirir estos datos mediante una de las siguientes vías:
 
-*“Un problema definido es un problema medio resuelto” - Albert Einstein*
+- Extracción de datos de alguna página web o portal utilizando técnicas de web scraping.
+- Explotación de una base de datos pública utilizando lenguaje SQL (la base de datos debe soportar este lenguaje).
+- Explotación de una API pública para obtener datos.
 
-**2. Colección de datos**
+Una vez tengamos los datos, debemos almacenarlos en un documento CSV y cargarlos en Python utilizando Pandas.
 
-¿Cómo recopilarás los datos? ¿Es un conjunto de datos público existente? ¿Tendrás que fusionar datos de diferentes fuentes? ¿Quizás hacer algo de web scraping?
+#### Paso 3: Realiza un EDA completo
 
-Esta es una parte fundamental porque en un proyecto de la vida real, dependiendo de los datos que tengas, el problema se puede resolver con los datos existentes o quizás tengas que convencer a tu cliente de que realmente se necesita pagar por más datos.
+Este segundo paso es vital para asegurar que nos quedamos con las variables estrictamente necesarias y eliminamos las que no son relevantes o no aportan información. Utiliza el Notebook de ejemplo que trabajamos y adáptalo a este caso de uso.
 
-**3. Análisis exploratorio de datos**
+Asegúrate de dividir convenientemente el conjunto de datos en `train` y `test` como hemos visto en lecciones anteriores.
 
-Explora tus datos tanto como pueda para encontrar patrones y relaciones importantes entre las características. Usa gráficos para explicar estos patrones. Esto será importante para mostrar en tu presentación.
+#### Paso 4: Construye el modelo y optimízalo
 
-**4. Preprocesamiento de datos**
+Una vez tengas los datos listos, decide qué modelo se adapta mejor a ellos y entrénalo. En caso de duda, prueba a utilizar varios de los que ya has estudiado. Selecciona el que mejor se adapte a los datos.
 
-Limpia tus datos para construir un buen modelo, porque los datos de baja calidad siempre producirán resultados defectuosos. Puedes volver a tu módulo de preprocesamiento de datos para recordar todos los pasos necesarios.
+Recuerda que el paso de optimización de hiperparámetros es muy importante para explorar y lograr alcanzar la mejor versión del modelo.
 
-Si se trata de un problema de clasificación, ¿están equilibrados tus datos? De lo contrario, considera volver a muestrearlo o asegúrate de elegir la métrica de evaluación correcta.
-
-¿Tus datos tienen muchos valores atípicos? ¿Son valores normales de tu población o deberías eliminarlos? o mejor aún, ¿imputarlos?
-
-¿Tu modelo requerirá normalización? Tal vez esté tratando con un algoritmo robusto para entrenar y no se necesita normalización.
-
-Hazte todas estas preguntas antes de entrenar a tu modelo. Quién sabe, estas son las mismas preguntas que te harán en su presentación.
-
-*Recuerda: basura adentro, basura afuera.*
-
-**5. Modelo y resultados**
-
-Elije uno o más algoritmos para entrenar, evaluar e hiperafinar. Elije el que usarás y guárdalo para el paso de implementación.
-
-**6. Deployment**
+#### Paso 5: Despliega el modelo
 
 Crea una aplicación web de Machine Learning utilizando tu modelo guardado. Puedes usar Flask, Streamlit o cualquier otra herramienta que conozcas.
 Usa Heroku u otra plataforma de computación en la nube que prefieras para implementar tu aplicación web y compartirla con el mundo.
 
-
 ### Presentación
 
-La presentación durará 5 minutos por grupo, así que asegúrate de usar tu tiempo de manera eficiente. El código será revisado por nosotros, así que no pierdas tiempo explicando tu código. Debes enfocarse en los puntos importantes como si estuvieras tratando de vender tu proyecto a las partes interesadas de tu empresa. Probablemente no tengan una formación técnica (tal vez la tengan), así que trata de usar palabras simples y una presentación de cuaderno fácil de entender. Recuerda que la calidad supera a la cantidad.
+La presentación durará 5 minutos por grupo, así que asegúrate de usar tu tiempo de manera eficiente. El código será revisado, así que no pierdas tiempo explicándolo. Céntrate en los puntos importantes, como si estuvieras intentando vender el proyecto a las partes interesadas de tu empresa o a unos inversores. Ten en cuenta que probablemente no tengan una formación técnica, así que trata de usar palabras simples y una presentación fácil de entender. Recuerda que la calidad supera a la cantidad.
 
 Puntos importantes recomendados para mencionar en tu presentación de 5 minutos:
 
-- ¿Cuál era el problema del negocio?
-
+- ¿Cuál es problema de negocio que quieres solucionar?
 - ¿Cómo recopilaste los datos?
-
 - Patrones importantes encontrados en los datos
-
 - ¿Qué algoritmo y métrica de evaluación utilizaste para construir tu modelo final?
-
 - Muestra tu aplicación web en funcionamiento y menciona cómo se puede mejorar en el futuro.
 
-
-*“El secreto para salir adelante es empezar.” - Mark Twain*
-
-
-
-
-
+> “El secreto para salir adelante es empezar.” - Mark Twain

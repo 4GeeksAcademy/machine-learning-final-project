@@ -1,98 +1,80 @@
 <!-- hide -->
-# Machine learning Final Project
+# Machine Learning final project
 <!-- endhide -->
 
-- You have reached the final project! If you look back, do it only to see how far you have come! Now the final step to the finish line.
+- Throughout this bootcamp, we have studied different models based on projects of different areas and types. Now it's time to create your own project using the agorithm that you think is best suited to your problem.
+- You will have to find a suitable dataset to work with, process it, train a model and finally make it available for consumption.
 
-- We have built projects based on different business problems, from different industries, and using a variety of algorithms. Now it's time to build your own project using the algorithm that you think is right for your problem.
-
-- If an ML model makes a prediction in Jupyter, is anyone around to hear it? Probably not. Deploying models is the key to making them useful.
-
-*“Hard work always beats talent when talent doesn't work hard” - Tim Notke*
+> “Hard work always beats talent when talent doesn't work hard” - Tim Notke
 
 ## 🌱  How to start this project
 
 1. Create a new repository based on [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) by [clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template).
 2. Open the recently created repository on Gitpod by using the [Gitpod button extension](https://www.gitpod.io/docs/browser-extension/).
-3. Once Gitpod VSCode has finished opening, add or edit any necessary files or folders to make your project structure ready for deployment.
-4. Start your project following the Instructions below.
+3. Once Gitpod VSCode has finished opening, start your project following the instructions below.
+4. Start your project by following the instructions below.
 
 ## 🚛 How to deliver this project
 
-You should deliver:
+Once you have finished the project, you must deliver:
 
-- The link to your project Github repo (already deployed).
-
-- The link to your deployed machine learning web application.
+- The link to your Github repository (already implemented).
+- The link to your implemented Machine Learning web application.
 
 ## 📝 Instructions
 
 ### Group formation
 
-Groups should ideally consist of three people. The minimum number of members is two people.
+To carry out the final project, students will be organized in teams of 2 to 3 people. The work must be collaborative.
 
-### Project Phases
+### Project phases
 
-**1. Problem Definition**
+#### Step 1: Problem definition
 
-Start by defining the business problem and then landing it into a machine learning problem.
+Start by defining a problem and turn it into a Machine Learning problem. This is the first step, since the data must meet a certain need and the Machine Learning process must aim at satisfying that need.
 
-*“A problem defined is a problem half solved” - Albert Einstein*
+The choice of the data set must satisfy minimum requirements in terms of number of rows and predictor variables. At a minimum, it must contain:
 
-**2. Data collection**
+- 10,000 instances (rows)
+- 10 predictor variables, of which there must be at least 1 categorical variable.
 
-How will you collect the data? Is it an existing public dataset? Will you have to merge data from different sources? Maybe do some web scraping?
+#### Step 2: Acquiring and loading the data set
 
-This is a fundamental part because in a real life project, depending on the data you have, the problem can be solved with the existing data or maybe you will have to convince your client that paying for more data is really needed.
+Since in the real world data does not usually arrive in a flat csv file, this data must be acquired by one of the following ways:
 
-**3. Exploratory Data Analysis** 
+- Extracting data from some web page or portal using web scraping techniques.
+- Exploitation of a public database using SQL language (the database must support this language).
+- Exploitation of a public API to obtain data.
 
-Explore your data as much as you can to find important patterns and relationships between features. Use graphs to explain these patterns. This will be important to show in your presentation.
+Once we have the data, we must store them in a CSV document and load them in Python using Pandas.
 
-**4. Data Preprocessing**
+#### Step 3: Perform a complete EDA
 
-Clean your data to build a good model, because poor-quality data will always produce faulty results. You can go back to your data preprocessing module to remember all the steps needed. 
+This second step is vital to ensure that we keep the variables that are strictly necessary and eliminate those that are not relevant or do not provide information. Use the example Notebook we worked on and adapt it to this use case.
 
-If this is a classification problem, is your data balanced? If not, consider resampling it, or make sure to pick the correct evaluation metric.
+Be sure to conveniently divide the data set into `train` and `test` as we have seen in previous lessons.
 
-Does your data have a lot of outliers? Are they normal values from your population or should you drop them? or even better, impute them?
+#### Step 4: Build the model and optimize it
 
-Will your model require normalization? Maybe you are dealing with a robust algorithm to train and normalization is not needed.
+Once you have your data ready, decide which model fits best and train it. If in doubt, try using several of the models you have already studied. Select the one that best fits the data.
 
-Make yourself all these questions before training your model. Who knows these are the same questions you will be asked at your presentation.
+Remember that the hyperparameter optimization step is very important to explore and achieve the best version of the model.
 
-*Remember, Garbage in, garbage out.*
+#### Step 5: Deploy the model
 
-**5. Model and results**
-
-Pick one or more algorithms to train, evaluate and hyper tune. Choose the one you will be working with and save it for the deployment step.
-
-**6. Deployment**
-
-Build a Machine Learning web application using your saved model. You can use Flask, Streamlit or any other tool that you know.
-Use Heroku or another cloud computing platform that you prefer to deploy your web application and share it with the world.
-
+Create a Machine Learning web application using your saved model. You can use Flask, Streamlit or any other tool you know.
+Use Heroku or another cloud computing platform of your choice to deploy your web application and share it with the world.
 
 ### Presentation
 
-The presentation will last 5 minutes per group, so make sure to use your time efficiently. The code will be reviewed by us, so do not waste time explaining your code. You should focus on the important points as if you were trying to sell your project to the stakeholders of your company. They probably won't have a technical background (maybe they will), so try using simple words and an easy to understand notebook presentation. Remember that quality beats quantity.
+The presentation will last 5 minutes per group, so be sure to use your time efficiently. The code will be reviewed, so don't waste time explaining it. Focus on the important points, as if you were trying to sell the project to your company's stakeholders or investors. Keep in mind that they probably don't have a technical background, so try to use simple words and an easy-to-understand presentation. Remember that quality trumps quantity.
 
-Important points recommended to mention in your 5-minute presentation:
+Recommended important points to mention in your 5-minute presentation:
 
-- What was the business problem
-
-- How did you collect the data
-
+- What is the business problem you want to solve?
+- How did you collect the data?
 - Important patterns found in the data
+- What algorithm and evaluation metrics did you use to build your final model?
+- Show your web application at work and mention how it can be improved in the future.
 
-- What algorithm and evaluation metric did you use to build your final model
-
-- Show your web application working and mention how can it be improved in the future.
-
-
-*“The secret of getting ahead is getting started.” - Mark Twain*
-
-
-
-
-
+> “The secret to getting ahead is to start.” - Mark Twain
