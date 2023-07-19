@@ -1,37 +1,42 @@
 <!-- hide -->
-# Proyecto Final de Machine learning 
+# Proyecto final de Machine Learning 
 <!-- endhide --> 
 
-- ¡Has llegado al proyecto final! Si miras hacia atrás, ¡hazlo solo para ver lo lejos que has llegado! Ahora el paso final a la línea de meta.
-
-- Hemos construido proyectos basados ​​en diferentes problemas comerciales, de diferentes industrias y utilizando una variedad de algoritmos. Ahora es el momento de crear tu propio proyecto utilizando el algoritmo que creas adecuado para tu problema.
-
-- Si un modelo de ML hace una predicción en Jupyter, ¿hay alguien cerca para escucharlo? Probablemente no. La implementación de modelos es la clave para que sean útiles.
+- A lo largo de este bootcamp, hemos estudiado diferentes modelos basados en proyectos de distintas áreas e índoles. Ahora es el momento de crear tu propio proyecto utilizando el agoritmo que creas que es más adecuado para tu problema.
+- Tendrás que buscar un conjunto de datos apto para trabajar con él, procesarlo, entrenar a un modelo y finalmente disponibilizarlo para poder ser consumido.
 
 *“El trabajo duro siempre vence al talento cuando el talento no trabaja duro” - Tim Notke*
 
 ## 🌱  Cómo iniciar este proyecto
 
-1. Crea un nuevo repositorio basado en el [proyecto de machine learning](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) haciendo [clic aquí](https://github.com/4GeeksAcademy/machine-learning-python-template).
+1. Crear un nuevo repositorio basado en el [proyecto de Machine Learing](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) [haciendo clic aquí](https://github.com/4GeeksAcademy/machine-learning-python-template).
 2. Abre el repositorio creado recientemente en Gitpod usando la [extensión del botón de Gitpod](https://www.gitpod.io/docs/browser-extension/).
-3. Una vez que Gitpod VSCode haya terminado de abrirse, agrega o edita los archivos o carpetas necesarios para que la estructura de tu proyecto esté lista para su implementación.
+3. Una vez que Gitpod VSCode haya terminado de abrirse, comienza tu proyecto siguiendo las instrucciones a continuación.
 4. Inicia tu proyecto siguiendo las instrucciones a continuación.
 
 ## 🚛 Cómo entregar este proyecto
 
-Debes entregar:
+Una vez hayas finalizado el proyecto, deberás entregar:
 
-- El enlace a tu proyecto Github repo (ya implementado).
-
+- El enlace a tu repositorio del Github (ya implementado).
 - El enlace a tu aplicación web de Machine Learning implementada.
 
 ## 📝 Instrucciones
 
-### Grupo de formación 
+### Grupos de trabajo
 
-Lo ideal es que los grupos estén formados por tres personas. El número mínimo de miembros es de dos personas.
+Para realizar el proyecto final, los alumnos se organizarán en equipos de 2 a 3 personas. El trabajo debe ser colaborativo.
 
-### Fases del proyecto 
+### Fases del proyecto
+
+#### Paso 1: Definición del problema
+
+Comienza por definir un problema y conviértelo en un problema de Machine Learning. Este es el primer paso, ya que los datos deben cubrir una necesidad determinada y el proceso de Machine Learning tener como fin satisfacer esa necesidad.
+
+La elección del conjunto de datos debe satisfacer unos requisitos mínimos en cuanto a número de filas y de variables predictoras. Como mínimo, debe contener:
+
+- 10.000 instancias (filas)
+- 10 variables predictoras, de las cuales debe tener al menos una categórica
 
 **1. Definición del problema**
 
