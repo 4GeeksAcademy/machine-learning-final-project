@@ -46,24 +46,36 @@ Puesto que en el mundo real los datos no suelen llegar en un fichero csv plano, 
 - Explotación de una base de datos pública utilizando lenguaje SQL (la base de datos debe soportar este lenguaje).
 - Explotación de una API pública para obtener datos.
 
-Una vez tengamos los datos, debemos almacenarlos en un documento CSV y cargarlos en Python utilizando Pandas.
+Una vez tengas los datos, debes almacenarlos en un documento CSV y cargarlos en Python utilizando Pandas.
 
-#### Paso 3: Realiza un EDA completo
+#### Paso 3: Almacenar la información
 
-Este segundo paso es vital para asegurar que nos quedamos con las variables estrictamente necesarias y eliminamos las que no son relevantes o no aportan información. Utiliza el Notebook de ejemplo que trabajamos y adáptalo a este caso de uso.
+Una práctica muy utilizada es almacenar los datos, sobre todo si son masivos, en una base de datos para llevar a cabo un acceso rápido a ellos. De todas las bases de datos que hemos estudiado, elige la más compatible con tus datos y almacénalos en ella. A continuación, realiza consultas utilizando Python (con código SQL puro o usando los wrappers que hemos estudiado en el curso) para utilizar las distintas sentencias: `SELECT`, `JOIN`, `INSERT`... Estas consultas deben aportar un valor para arrancar el análisis sobre los datos previo al estadístico y al EDA.
+
+Es importante que comprendas que en el mundo real no sólo tenemos los CSV como aliado para almacenar datos, ya que es más fácil perder un fichero plano como el CSV que una base de datos con sus conexiones y modelos de datos dentro. La seguridad también es un factor crítico e importante para almacenar tus datos allí, ya que un CSV no proporciona ningún mecanismo de protección que otras tecnologías sí.
+
+#### Paso 4: Realiza un análisis descriptivo
+
+Los datos en crudo almacenados en una base de datos pueden ser una gran y muy valiosa fuente de información. Antes de comenzar a simplificarlos y a explotarlos con el EDA, debemos conocer sus medidas estadísticas fundamentales: medias, modas, distribuciones, desviaciones, etcétera. Analiza las variables estadísticas descriptivas de cada una de las predictoras del conjunto de datos y teoriza sobre la distribución que sigue cada una de ellas.
+
+Utiliza contrastes de hipótesis si lo consideras necesario.
+
+#### Paso 5: Realiza un EDA completo
+
+Este paso es vital para asegurar que nos quedamos con las variables estrictamente necesarias y eliminamos las que no son relevantes o no aportan información. Utiliza el Notebook de ejemplo que trabajamos y adáptalo a este caso de uso.
 
 Asegúrate de dividir convenientemente el conjunto de datos en `train` y `test` como hemos visto en lecciones anteriores.
 
-#### Paso 4: Construye el modelo y optimízalo
+#### Paso 6: Construye el modelo y optimízalo
 
 Una vez tengas los datos listos, decide qué modelo se adapta mejor a ellos y entrénalo. En caso de duda, prueba a utilizar varios de los que ya has estudiado. Selecciona el que mejor se adapte a los datos.
 
 Recuerda que el paso de optimización de hiperparámetros es muy importante para explorar y lograr alcanzar la mejor versión del modelo.
 
-#### Paso 5: Despliega el modelo
+#### Paso 7: Despliega el modelo
 
 Crea una aplicación web de Machine Learning utilizando tu modelo guardado. Puedes usar Flask, Streamlit o cualquier otra herramienta que conozcas.
-Usa Heroku u otra plataforma de computación en la nube que prefieras para implementar tu aplicación web y compartirla con el mundo.
+Usa Heroku, Render u otra plataforma de computación en la nube que prefieras para implementar tu aplicación web y compartirla con el mundo. Recuerda que la aplicación va a ser la puerta de entrada a usuarios potenciales o clientes, y hay que cuidar hasta el más mínimo detalle.
 
 ### Presentación
 
