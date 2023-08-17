@@ -46,24 +46,36 @@ Since in the real world data does not usually arrive in a flat csv file, this da
 - Exploitation of a public database using SQL language (the database must support this language).
 - Exploitation of a public API to obtain data.
 
-Once we have the data, we must store them in a CSV document and load them in Python using Pandas.
+Once you have the data, you must store it in a CSV document and load it into Python using Pandas.
 
-#### Step 3: Perform a complete EDA
+#### Step 3: Store the information
 
-This second step is vital to ensure that we keep the variables that are strictly necessary and eliminate those that are not relevant or do not provide information. Use the example Notebook we worked on and adapt it to this use case.
+A widely used practice is to store the data, especially if they are massive, in a database for quick access to them. From all the databases we have studied, choose the one most compatible with your data and store it there. Then, perform queries using Python (with pure SQL code or using the wrappers we have studied in the course) to use the different statements: `SELECT`, `JOIN`, `INSERT`.... These queries must provide a value to start the analysis on the data prior to the statistics and EDA.
 
-Be sure to conveniently divide the data set into `train` and `test` as we have seen in previous lessons.
+It is important to understand that in the real world we do not only have CSV as an ally to store data, since it is easier to lose a flat file like CSV than a database with its connections and data models inside. Security is also a critical and important factor for storing your data there, since a CSV does not provide any protection mechanism that other technologies do.
 
-#### Step 4: Build the model and optimize it
+#### Step 4: Perform a descriptive analysis
 
-Once you have your data ready, decide which model fits best and train it. If in doubt, try using several of the models you have already studied. Select the one that best fits the data.
+The raw data stored in a database can be a great and very valuable source of information. Before we begin to simplify and exploit them with EDA, we must know their fundamental statistical measures: means, modes, distributions, deviations, etcetera. Analyze the descriptive statistical variables of each of the predictors of the data set and theorize about the distribution that each of them follows.
+
+Use hypothesis tests if you consider it necessary.
+
+#### Step 5: Perform a full EDA
+
+This step is vital to ensure that we keep the variables that are strictly necessary and eliminate those that are not relevant or do not provide information. Use the example Notebook we worked on and adapt it to this use case.
+
+Make sure to conveniently divide the data set into `train` and `test` as we have seen in previous lessons.
+
+#### Step 6: Build the model and optimize it
+
+Once you have your data ready, decide which model fits best and train it. If in doubt, try using several of the ones you have already studied. Select the one that best fits the data.
 
 Remember that the hyperparameter optimization step is very important to explore and achieve the best version of the model.
 
-#### Step 5: Deploy the model
+#### Step 7: Deploy the model
 
 Create a Machine Learning web application using your saved model. You can use Flask, Streamlit or any other tool you know.
-Use Heroku or another cloud computing platform of your choice to deploy your web application and share it with the world.
+Use Heroku, Render or another cloud computing platform of your choice to deploy your web application and share it with the world. Remember that the application is going to be the gateway to potential users or customers, and you have to take care of even the smallest detail.
 
 ### Presentation
 
