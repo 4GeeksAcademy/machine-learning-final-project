@@ -1,98 +1,92 @@
 <!-- hide -->
-# Proyecto Final de Machine learning 
+# Proyecto final de Machine Learning 
 <!-- endhide --> 
 
-- ¡Has llegado al proyecto final! Si miras hacia atrás, ¡hazlo solo para ver lo lejos que has llegado! Ahora el paso final a la línea de meta.
+- A lo largo de este bootcamp, hemos estudiado diferentes modelos basados en proyectos de distintas áreas e índoles. Ahora es el momento de crear tu propio proyecto utilizando el agoritmo que creas que es más adecuado para tu problema.
+- Tendrás que buscar un conjunto de datos apto para trabajar con él, procesarlo, entrenar a un modelo y finalmente disponibilizarlo para poder ser consumido.
 
-- Hemos construido proyectos basados ​​en diferentes problemas comerciales, de diferentes industrias y utilizando una variedad de algoritmos. Ahora es el momento de crear tu propio proyecto utilizando el algoritmo que creas adecuado para tu problema.
-
-- Si un modelo de ML hace una predicción en Jupyter, ¿hay alguien cerca para escucharlo? Probablemente no. La implementación de modelos es la clave para que sean útiles.
-
-*“El trabajo duro siempre vence al talento cuando el talento no trabaja duro” - Tim Notke*
+> “El trabajo duro siempre vence al talento cuando el talento no trabaja duro” - Tim Notke
 
 ## 🌱  Cómo iniciar este proyecto
 
-1. Crea un nuevo repositorio basado en el [proyecto de machine learning](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) haciendo [clic aquí](https://github.com/4GeeksAcademy/machine-learning-python-template).
-2. Abre el repositorio creado recientemente en Gitpod usando la [extensión del botón de Gitpod](https://www.gitpod.io/docs/browser-extension/).
-3. Una vez que Gitpod VSCode haya terminado de abrirse, agrega o edita los archivos o carpetas necesarios para que la estructura de tu proyecto esté lista para su implementación.
+1. Crear un nuevo repositorio basado en el [proyecto de Machine Learing](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) [haciendo clic aquí](https://github.com/4GeeksAcademy/machine-learning-python-template).
+2. Abre el repositorio creado recientemente en Codespace usando la [extensión del botón de Codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
+3. Una vez que el VSCode del Codespace haya terminado de abrirse, comienza tu proyecto siguiendo las instrucciones a continuación.
 4. Inicia tu proyecto siguiendo las instrucciones a continuación.
 
 ## 🚛 Cómo entregar este proyecto
 
-Debes entregar:
+Una vez hayas finalizado el proyecto, deberás entregar:
 
-- El enlace a tu proyecto Github repo (ya implementado).
-
+- El enlace a tu repositorio del Github (ya implementado).
 - El enlace a tu aplicación web de Machine Learning implementada.
 
 ## 📝 Instrucciones
 
-### Grupo de formación 
+### Grupos de trabajo
 
-Lo ideal es que los grupos estén formados por tres personas. El número mínimo de miembros es de dos personas.
+Para realizar el proyecto final, los alumnos se organizarán en equipos de 2 a 3 personas. El trabajo debe ser colaborativo.
 
-### Fases del proyecto 
+### Fases del proyecto
 
-**1. Definición del problema**
+#### Paso 1: Definición del problema
 
-Comienza por definir el problema comercial y luego conviértelo en un problema de Machine Learning.
+Comienza por definir un problema y conviértelo en un problema de Machine Learning. Este es el primer paso, ya que los datos deben cubrir una necesidad determinada y el proceso de Machine Learning tener como fin satisfacer esa necesidad.
 
-*“Un problema definido es un problema medio resuelto” - Albert Einstein*
+La elección del conjunto de datos debe satisfacer unos requisitos mínimos en cuanto a número de filas y de variables predictoras. Como mínimo, debe contener:
 
-**2. Colección de datos**
+- 100.000 instancias (filas)
+- 30 variables predictoras, de las cuales debe haber al menos 1 variable categórica.
 
-¿Cómo recopilarás los datos? ¿Es un conjunto de datos público existente? ¿Tendrás que fusionar datos de diferentes fuentes? ¿Quizás hacer algo de web scraping?
+#### Paso 2: Obtencion y carga del conjunto de datos
 
-Esta es una parte fundamental porque en un proyecto de la vida real, dependiendo de los datos que tengas, el problema se puede resolver con los datos existentes o quizás tengas que convencer a tu cliente de que realmente se necesita pagar por más datos.
+Puesto que en el mundo real los datos no suelen llegar en un fichero csv plano, se deben adquirir estos datos mediante una de las siguientes vías:
 
-**3. Análisis exploratorio de datos**
+- Extracción de datos de alguna página web o portal utilizando técnicas de web scraping.
+- Explotación de una base de datos pública utilizando lenguaje SQL (la base de datos debe soportar este lenguaje).
+- Explotación de una API pública para obtener datos.
 
-Explora tus datos tanto como pueda para encontrar patrones y relaciones importantes entre las características. Usa gráficos para explicar estos patrones. Esto será importante para mostrar en tu presentación.
+Una vez tengas los datos, debes almacenarlos en un documento CSV y cargarlos en Python utilizando Pandas.
 
-**4. Preprocesamiento de datos**
+#### Paso 3: Almacenar la información
 
-Limpia tus datos para construir un buen modelo, porque los datos de baja calidad siempre producirán resultados defectuosos. Puedes volver a tu módulo de preprocesamiento de datos para recordar todos los pasos necesarios.
+Una práctica muy utilizada es almacenar los datos, sobre todo si son masivos, en una base de datos para llevar a cabo un acceso rápido a ellos. De todas las bases de datos que hemos estudiado, elige la más compatible con tus datos y almacénalos en ella. A continuación, realiza consultas utilizando Python (con código SQL puro o usando los wrappers que hemos estudiado en el curso) para utilizar las distintas sentencias: `SELECT`, `JOIN`, `INSERT`... Estas consultas deben aportar un valor para arrancar el análisis sobre los datos previo al estadístico y al EDA.
 
-Si se trata de un problema de clasificación, ¿están equilibrados tus datos? De lo contrario, considera volver a muestrearlo o asegúrate de elegir la métrica de evaluación correcta.
+Es importante que comprendas que en el mundo real no sólo tenemos los CSV como aliado para almacenar datos, ya que es más fácil perder un fichero plano como el CSV que una base de datos con sus conexiones y modelos de datos dentro. La seguridad también es un factor crítico e importante para almacenar tus datos allí, ya que un CSV no proporciona ningún mecanismo de protección que otras tecnologías sí.
 
-¿Tus datos tienen muchos valores atípicos? ¿Son valores normales de tu población o deberías eliminarlos? o mejor aún, ¿imputarlos?
+#### Paso 4: Realiza un análisis descriptivo
 
-¿Tu modelo requerirá normalización? Tal vez esté tratando con un algoritmo robusto para entrenar y no se necesita normalización.
+Los datos en crudo almacenados en una base de datos pueden ser una gran y muy valiosa fuente de información. Antes de comenzar a simplificarlos y a explotarlos con el EDA, debemos conocer sus medidas estadísticas fundamentales: medias, modas, distribuciones, desviaciones, etcétera. Analiza las variables estadísticas descriptivas de cada una de las predictoras del conjunto de datos y teoriza sobre la distribución que sigue cada una de ellas.
 
-Hazte todas estas preguntas antes de entrenar a tu modelo. Quién sabe, estas son las mismas preguntas que te harán en su presentación.
+Utiliza contrastes de hipótesis si lo consideras necesario.
 
-*Recuerda: basura adentro, basura afuera.*
+#### Paso 5: Realiza un EDA completo
 
-**5. Modelo y resultados**
+Este paso es vital para asegurar que nos quedamos con las variables estrictamente necesarias y eliminamos las que no son relevantes o no aportan información. Utiliza el Notebook de ejemplo que trabajamos y adáptalo a este caso de uso.
 
-Elije uno o más algoritmos para entrenar, evaluar e hiperafinar. Elije el que usarás y guárdalo para el paso de implementación.
+Asegúrate de dividir convenientemente el conjunto de datos en `train` y `test` como hemos visto en lecciones anteriores.
 
-**6. Deployment**
+#### Paso 6: Construye el modelo y optimízalo
+
+Una vez tengas los datos listos, decide qué modelo se adapta mejor a ellos y entrénalo. En caso de duda, prueba a utilizar varios de los que ya has estudiado. Selecciona el que mejor se adapte a los datos.
+
+Recuerda que el paso de optimización de hiperparámetros es muy importante para explorar y lograr alcanzar la mejor versión del modelo.
+
+#### Paso 7: Despliega el modelo
 
 Crea una aplicación web de Machine Learning utilizando tu modelo guardado. Puedes usar Flask, Streamlit o cualquier otra herramienta que conozcas.
-Usa Heroku u otra plataforma de computación en la nube que prefieras para implementar tu aplicación web y compartirla con el mundo.
-
+Usa Heroku, Render u otra plataforma de computación en la nube que prefieras para implementar tu aplicación web y compartirla con el mundo. Recuerda que la aplicación va a ser la puerta de entrada a usuarios potenciales o clientes, y hay que cuidar hasta el más mínimo detalle.
 
 ### Presentación
 
-La presentación durará 5 minutos por grupo, así que asegúrate de usar tu tiempo de manera eficiente. El código será revisado por nosotros, así que no pierdas tiempo explicando tu código. Debes enfocarse en los puntos importantes como si estuvieras tratando de vender tu proyecto a las partes interesadas de tu empresa. Probablemente no tengan una formación técnica (tal vez la tengan), así que trata de usar palabras simples y una presentación de cuaderno fácil de entender. Recuerda que la calidad supera a la cantidad.
+La presentación durará 5 minutos por grupo, así que asegúrate de usar tu tiempo de manera eficiente. El código será revisado, así que no pierdas tiempo explicándolo. Céntrate en los puntos importantes, como si estuvieras intentando vender el proyecto a las partes interesadas de tu empresa o a unos inversores. Ten en cuenta que probablemente no tengan una formación técnica, así que trata de usar palabras simples y una presentación fácil de entender. Recuerda que la calidad supera a la cantidad.
 
 Puntos importantes recomendados para mencionar en tu presentación de 5 minutos:
 
-- ¿Cuál era el problema del negocio?
-
+- ¿Cuál es problema de negocio que quieres solucionar?
 - ¿Cómo recopilaste los datos?
-
 - Patrones importantes encontrados en los datos
-
 - ¿Qué algoritmo y métrica de evaluación utilizaste para construir tu modelo final?
-
 - Muestra tu aplicación web en funcionamiento y menciona cómo se puede mejorar en el futuro.
 
-
-*“El secreto para salir adelante es empezar.” - Mark Twain*
-
-
-
-
-
+> “El secreto para salir adelante es empezar.” - Mark Twain
