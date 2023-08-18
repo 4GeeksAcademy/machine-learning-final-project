@@ -35,8 +35,8 @@ Comienza por definir un problema y conviértelo en un problema de Machine Learni
 
 La elección del conjunto de datos debe satisfacer unos requisitos mínimos en cuanto a número de filas y de variables predictoras. Como mínimo, debe contener:
 
-- 10.000 instancias (filas)
-- 10 variables predictoras, de las cuales debe haber al menos 1 variable categórica.
+- 100.000 instancias (filas)
+- 30 variables predictoras, de las cuales debe haber al menos 1 variable categórica.
 
 #### Paso 2: Obtencion y carga del conjunto de datos
 

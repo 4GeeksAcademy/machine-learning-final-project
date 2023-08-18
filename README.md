@@ -35,8 +35,8 @@ Start by defining a problem and turn it into a Machine Learning problem. This is
 
 The choice of the data set must satisfy minimum requirements in terms of number of rows and predictor variables. At a minimum, it must contain:
 
-- 10,000 instances (rows)
-- 10 predictor variables, of which there must be at least 1 categorical variable.
+- 100,000 instances (rows)
+- 30 predictor variables, of which there must be at least 1 categorical variable.
 
 #### Step 2: Acquiring and loading the data set
 
