@@ -35,8 +35,10 @@ Start by defining a problem and turn it into a Machine Learning problem. This is
 
 The choice of the data set must satisfy minimum requirements in terms of number of rows and predictor variables. At a minimum, it must contain:
 
-- 100,000 instances (rows)
-- 30 predictor variables, of which there must be at least 1 categorical variable.
+- 60,000 instances (rows)
+- 20 predictor variables, of which there must be at least 1 categorical variable.
+
+> NOTE: Depending on the dataset and the case study to be explored, datasets that do not reach the established minimum may be evaluated and accepted.
 
 #### Step 2: Acquiring and loading the data set
 
@@ -47,6 +49,8 @@ Since in the real world data does not usually arrive in a flat csv file, this da
 - Exploitation of a public API to obtain data.
 
 Once you have the data, you must store it in a CSV document and load it into Python using Pandas.
+
+> NOTE: Depending on the dataset and the case study to be explored, datasets downloaded by other means could be evaluated and accepted.
 
 #### Step 3: Store the information
 

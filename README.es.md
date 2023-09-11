@@ -35,8 +35,10 @@ Comienza por definir un problema y conviértelo en un problema de Machine Learni
 
 La elección del conjunto de datos debe satisfacer unos requisitos mínimos en cuanto a número de filas y de variables predictoras. Como mínimo, debe contener:
 
-- 100.000 instancias (filas)
-- 30 variables predictoras, de las cuales debe haber al menos 1 variable categórica.
+- 60.000 instancias (filas)
+- 20 variables predictoras, de las cuales debe haber al menos 1 variable categórica.
+
+> NOTA: Depende del conjunto de datos y del caso práctico que se quiera explorar, se podría valorar y aceptar datasets que no lleguen al mínimo establecido.
 
 #### Paso 2: Obtencion y carga del conjunto de datos
 
@@ -47,6 +49,8 @@ Puesto que en el mundo real los datos no suelen llegar en un fichero csv plano, 
 - Explotación de una API pública para obtener datos.
 
 Una vez tengas los datos, debes almacenarlos en un documento CSV y cargarlos en Python utilizando Pandas.
+
+> NOTA: Depende del conjunto de datos y del caso práctico que se quiera explorar, se podría valorar y aceptar datasets descargados por otras vías.
 
 #### Paso 3: Almacenar la información
 
