@@ -83,7 +83,7 @@ Use Heroku, Render or another cloud computing platform of your choice to deploy 
 
 ### Presentation
 
-The presentation will last 5 minutes per group, so be sure to use your time efficiently. The code will be reviewed, so don't waste time explaining it. Focus on the important points, as if you were trying to sell the project to your company's stakeholders or investors. Keep in mind that they probably don't have a technical background, so try to use simple words and an easy-to-understand presentation. Remember that quality trumps quantity.
+The presentation will last 10 minutes per group, so be sure to use your time efficiently. The code will be reviewed, so don't waste time explaining it. Focus on the important points, as if you were trying to sell the project to your company's stakeholders or investors. Keep in mind that they probably don't have a technical background, so try to use simple words and an easy-to-understand presentation. Remember that quality trumps quantity.
 
 Recommended important points to mention in your 5-minute presentation:
 
