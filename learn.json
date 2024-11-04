@@ -4,7 +4,7 @@
 	"preview": "https://github.com/4GeeksAcademy/machine-learning-final-project/blob/main/preview.png?raw=true",
 	"status": "published",
 	"translations": ["us"],
-	"technologies": ["data-science", "machine-learning"],
+	"technologies": ["python", "pandas", "numpy", "matplotlib", "seaborn", "scikit-learn", "flask", "streamlit", "sql", "web scraping", "heroku", "render", "data-science", "machine-learning"],
 	"difficulty": "beginner",
 	"syntax": "python",
 	"duration" : 2,
