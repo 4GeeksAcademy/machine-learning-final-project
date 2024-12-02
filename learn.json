@@ -6,8 +6,9 @@
 	"translations": ["us"],
 	"technologies": ["python", "pandas", "numpy", "matplotlib", "seaborn", "scikit-learn", "flask", "streamlit", "sql", "web scraping", "heroku", "render", "data-science", "machine-learning"],
 	"difficulty": "beginner",
-	"syntax": "python",
+	"syntax": "python", 
 	"duration" : 2,
+	"template_url": "https://github.com/4GeeksAcademy/machine-learning-python-template",
     "projectType": "project",
 	"description" : "These are your machine learning final project instructions"
 }
