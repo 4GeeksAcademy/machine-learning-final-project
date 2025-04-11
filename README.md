@@ -6,8 +6,6 @@
 - You will have to find a suitable dataset to work with, process it, train a model and finally make it available for consumption.
 
 > “Hard work always beats talent when talent doesn't work hard” - Tim Notke
-
-<onlyfor saas="false" withBanner="false">
   
 ## 🌱  How to start this project
 
@@ -15,8 +13,6 @@
 2. Open the newly created repository in Codespace using the [Codespace button extension](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
 3. Once the Codespace VSCode has finished opening, start your project by following the instructions below.
 4. Start your project by following the instructions below.
-
-</onlyfor>
 
 ## 🚛 How to deliver this project
 
