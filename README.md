@@ -6,7 +6,7 @@
 - You will have to find a suitable dataset to work with, process it, train a model and finally make it available for consumption.
 
 > “Hard work always beats talent when talent doesn't work hard” - Tim Notke
-
+  
 ## 🌱  How to start this project
 
 1. Create a new repository based on [machine learning project](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) by [clicking here](https://github.com/4GeeksAcademy/machine-learning-python-template).

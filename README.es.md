@@ -6,10 +6,10 @@
 - Tendrás que buscar un conjunto de datos apto para trabajar con él, procesarlo, entrenar a un modelo y finalmente disponibilizarlo para poder ser consumido.
 
 > “El trabajo duro siempre vence al talento cuando el talento no trabaja duro” - Tim Notke
-
+  
 ## 🌱  Cómo iniciar este proyecto
 
-1. Crear un nuevo repositorio basado en el [proyecto de Machine Learing](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) [haciendo clic aquí](https://github.com/4GeeksAcademy/machine-learning-python-template).
+1. Crear un nuevo repositorio basado en el [proyecto de Machine Learing](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) haciendo clic [aquí](https://github.com/4GeeksAcademy/machine-learning-python-template).
 2. Abre el repositorio creado recientemente en Codespace usando la [extensión del botón de Codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
 3. Una vez que el VSCode del Codespace haya terminado de abrirse, comienza tu proyecto siguiendo las instrucciones a continuación.
 4. Inicia tu proyecto siguiendo las instrucciones a continuación.
